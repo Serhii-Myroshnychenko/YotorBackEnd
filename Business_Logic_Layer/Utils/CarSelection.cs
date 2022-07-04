@@ -17,7 +17,7 @@ namespace Business_Logic_Layer.Utils
         public static double GetDistanceOfSomeCar(string carsLocation, string usersLocation)
         {
             var result = "";
-            string url = $"https://maps.googleapis.com/maps/api/distancematrix/xml?origins={usersLocation}&destinations={carsLocation}&key=AIzaSyB9p4bXhDky7e4Fbz0OX4cdMOoxxq7hpOA";
+            string url = $"https://maps.googleapis.com/maps/api/distancematrix/xml?origins={usersLocation}&destinations={carsLocation}&key=";
             WebRequest request = WebRequest.Create(url);
             using (WebResponse response = (HttpWebResponse)request.GetResponse())
             {
@@ -40,7 +40,7 @@ namespace Business_Logic_Layer.Utils
         {
             using (WebClient wc = new())
             {
-                var json = wc.DownloadString($"https://maps.googleapis.com/maps/api/geocode/json?latlng={latitude},{longitude}&key=AIzaSyB9p4bXhDky7e4Fbz0OX4cdMOoxxq7hpOA");
+                var json = wc.DownloadString($"https://maps.googleapis.com/maps/api/geocode/json?latlng={latitude},{longitude}&key=");
                 var data = JObject.Parse(json);
                 var response = data.ToString();
                 var start = response.IndexOf("\"formatted_address\": \"") + 22;
