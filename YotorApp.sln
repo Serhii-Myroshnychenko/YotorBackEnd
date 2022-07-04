@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YotorAuth", "YotorApp\YotorAuth.csproj", "{E4A8F150-C918-4222-B39D-B01B930B5BE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business_Logic_Layer", "Business_Logic_Layer\Business_Logic_Layer.csproj", "{B8700AF7-4F8C-43D9-B4A6-DBAF641C2995}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data_Access_Layer", "Data_Access_Layer\Data_Access_Layer.csproj", "{D0094479-AFBE-4684-8F7E-B3E76DB56B8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YotorAPI", "YotorAPI\YotorAPI.csproj", "{0F6DA3BB-DE0C-45EE-B809-010C23E63720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching", "Caching\Caching.csproj", "{1C86B32C-02AD-40F2-B8FF-A022A1121432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4A8F150-C918-4222-B39D-B01B930B5BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A8F150-C918-4222-B39D-B01B930B5BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A8F150-C918-4222-B39D-B01B930B5BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A8F150-C918-4222-B39D-B01B930B5BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8700AF7-4F8C-43D9-B4A6-DBAF641C2995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8700AF7-4F8C-43D9-B4A6-DBAF641C2995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8700AF7-4F8C-43D9-B4A6-DBAF641C2995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8700AF7-4F8C-43D9-B4A6-DBAF641C2995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0094479-AFBE-4684-8F7E-B3E76DB56B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0094479-AFBE-4684-8F7E-B3E76DB56B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0094479-AFBE-4684-8F7E-B3E76DB56B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0094479-AFBE-4684-8F7E-B3E76DB56B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6DA3BB-DE0C-45EE-B809-010C23E63720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6DA3BB-DE0C-45EE-B809-010C23E63720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6DA3BB-DE0C-45EE-B809-010C23E63720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6DA3BB-DE0C-45EE-B809-010C23E63720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C86B32C-02AD-40F2-B8FF-A022A1121432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C86B32C-02AD-40F2-B8FF-A022A1121432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C86B32C-02AD-40F2-B8FF-A022A1121432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C86B32C-02AD-40F2-B8FF-A022A1121432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47BF3EB9-68D1-46D6-9275-169CA17645F7}
+	EndGlobalSection
+EndGlobal
